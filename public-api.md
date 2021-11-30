@@ -48,8 +48,8 @@ Production сервис настроен на автоматический пе�
 	code: 10042,	//Integer code of error (currently has no standart for this)
 	status: "error",	//always "error" 
 	message: "Unknown method"	//Message, described whats are goined wrong
-    method: "get", //code of requested action
-    data: null //or debug/trace data
+	method: "get", //code of requested action
+	data: null //or debug/trace data
 }
 ```
 
@@ -64,8 +64,8 @@ Production сервис настроен на автоматический пе�
 	method: "subscribe", //Method, only supporting get|subscribe|unsubscribe|list 
 	version: "v1",	//Protocol version, always "v1" at now
 	actions: [	//Array of individual commands: [<command>, {Params object}]
-			['heartbeat'],
-			['quote', {symbol:'.AAPL'}]
+		['heartbeat'],
+		['quote', {symbol:'.AAPL'}]
 	]
 }
 ```
@@ -75,8 +75,8 @@ Production сервис настроен на автоматический пе�
 ```javascript
 {
 	code: 200,
-    status: "ok", //Status of execution, ok|error. For error, in addition, we adding code and message fields.
-    id: 2, 	//Integer, sequence counter of command execution
+	status: "ok", //Status of execution, ok|error. For error, in addition, we adding code and message fields.
+	id: 2, 	//Integer, sequence counter of command execution
 	method: "subscribe", //executed command
 	data: {
 		//any response data
@@ -136,7 +136,7 @@ MDP использует концепцию подписок (Subscribe) и RFQ 
 - ИД внутри источника - внутренний идентификатор внутри непосредственно источника данных.
 - _raw - специальное отладочное поле, которое может принимать значение обьекта, например, сырой формат данных от источника для отладки
 
-```json
+```javascript
 {
     id: "af703acc-155b-4293-940d-353b39b8f78b",
     symbol: "REF.AAPL",
@@ -201,7 +201,7 @@ MDP использует концепцию подписок (Subscribe) и RFQ 
 ```javascript
 {
 	code: 200,
-    status: "ok",
+	status: "ok",
 	data: {
 		version: "v0.4.1-a738be44"
 	}
@@ -227,7 +227,7 @@ MDP использует концепцию подписок (Subscribe) и RFQ 
 ```javascript
 {
 	code: 200,
-    status: "ok",
+	status: "ok",
 	data: {
 		time: "2021-03-15T19:28:39.506Z"
 	}
@@ -253,7 +253,7 @@ MDP использует концепцию подписок (Subscribe) и RFQ 
 ```javascript
 {
 	code: 200,
-    status: "ok",
+	status: "ok",
 	data: {}
 }
 ```
@@ -277,7 +277,7 @@ MDP использует концепцию подписок (Subscribe) и RFQ 
 ```javascript
 {
 	code: 200,
-    status: "ok",
+	status: "ok",
 	data: {
 		maindb: "online",	//Status of main storage
 		pubsub: "online",	//Status of internal mq sub-system
@@ -288,7 +288,7 @@ MDP использует концепцию подписок (Subscribe) и RFQ 
 		marketdataUS: "online",	//connector status
 		marketdataTRDATA: "online",	//connector status
 		apiServer: "online"	//API service
-    }
+	}
 }
 ```
 
@@ -310,16 +310,15 @@ MDP использует концепцию подписок (Subscribe) и RFQ 
 
 ```javascript
 {
-    code: 200,
-    status: "ok",
-    data: {
-        "trdata": {},
-        "usa": {},
-        "ux": {},
-        "pfts": {},
-        "perspectiva": {},
-        "opyn": {}
-    }
+	code: 200,
+	status: "ok",
+	data: {
+		"trdata": {},
+		"usa": {},
+		"ux": {},
+		"pfts": {},
+		"perspectiva": {}
+	}
 }
 ```
 
