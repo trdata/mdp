@@ -17,8 +17,8 @@ Powered by TRDATA Tech team.
 
 - **Production** (REST) - https://api.mdp.trdatatech.com/ 
 - **Production** (WebSocket) - wss://api.mdp.trdatatech.com/ws
-- ***Dev release*** (dev, REST) - https://devapi.mdp.trdatatech.com/*
-- ***Dev release*** (dev, WebSocket,) - wss://devapi.mdp.trdatatech.com/ws*
+- ***Dev release*** (dev, REST) - https://devapi.mdp.trdatatech.com/
+- ***Dev release*** (dev, WebSocket) - wss://devapi.mdp.trdatatech.com/ws
 
 Важно! Стабильность работы и совместимость между платформами Dev и Prod НЕ ГАРАНТИРУЕТСЯ. 
 
