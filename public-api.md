@@ -5,7 +5,7 @@ Powered by TRDATA Tech team.
 ## Changelog
 
 -  **v0.1 from 23.11.2021**
-  -  Public API scheme
+	-  Public API scheme
 
 ## Введение
 
@@ -18,7 +18,7 @@ Powered by TRDATA Tech team.
 - **Production** (REST) - https://api.mdp.trdatatech.com/ 
 - **Production** (WebSocket) - wss://api.mdp.trdatatech.com/ws
 - ***Dev release*** (dev, REST) - https://devapi.mdp.trdatatech.com/*
-- ***Dev release** (dev, WebSocket,) - wss://devapi.mdp.trdatatech.com/ws*
+- ***Dev release*** (dev, WebSocket,) - wss://devapi.mdp.trdatatech.com/ws*
 
 Важно! Стабильность работы и совместимость между платформами Dev и Prod НЕ ГАРАНТИРУЕТСЯ. 
 
@@ -33,11 +33,11 @@ Production сервис настроен на автоматический пе�
 ```javascript
 {
 	code: 200,
-    status: "ok",
-    method: "get",
+	status: "ok",
+	method: "get",
 	data: {
-        //any response data
-    }
+		//any response data
+	}
 }
 ```
 
