@@ -4,7 +4,7 @@ Powered by TRDATA Tech team.
 
 ## Changelog
 
--  v0.1.2 from 15.12.2021
+-  **v0.1.2** from 15.12.2021
   -  Fake quotes generator
   -  Поддержка исторических данных tick-by-tick
 
