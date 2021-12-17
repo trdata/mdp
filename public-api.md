@@ -192,7 +192,7 @@ MDP использует концепцию подписок (Subscribe) и RFQ 
 
 #### Request
 
-​	https://api.mdp.trdatatech.com/api/v1/version 
+​	https://devapi.mdp.trdatatech.com/api/v1/version 
 
 #### Response
 
@@ -214,7 +214,7 @@ MDP использует концепцию подписок (Subscribe) и RFQ 
 
 #### Request
 
-​	https://api.mdp.trdatatech.com/api/v1/time 
+​	https://devapi.mdp.trdatatech.com/api/v1/time 
 
 #### Params
 
@@ -240,7 +240,7 @@ MDP использует концепцию подписок (Subscribe) и RFQ 
 
 #### Request
 
-​	https://api.mdp.trdatatech.com/api/v1/heartbeat 
+​	https://devapi.mdp.trdatatech.com/api/v1/heartbeat 
 
 #### Params
 
@@ -264,7 +264,7 @@ MDP использует концепцию подписок (Subscribe) и RFQ 
 
 #### Request
 
-​	https://api.mdp.trdatatech.com/api/v1/status 
+​	https://devapi.mdp.trdatatech.com/api/v1/status 
 
 #### Params
 
@@ -298,7 +298,7 @@ MDP использует концепцию подписок (Subscribe) и RFQ 
 
 #### Request
 
-​	https://api.mdp.trdatatech.com/api/v1/symbols/info
+​	https://devapi.mdp.trdatatech.com/api/v1/symbols/info
 
 #### Params
 
@@ -341,15 +341,15 @@ MDP использует концепцию подписок (Subscribe) и RFQ 
 
 
 
-### symbols/subscribe  и symbols/unsubscribe
+### symbols/subscribe **и** symbols/unsubscribe
 
 ​	Добавляет в подписку клиента указанные инструменты (один или несколько, перечисленные через запятую). Игнорирует дубликаты. Endpoint unsubscribe - делает ровно наоборот, удаляет подписки.
 
 #### Request
 
-​	https://api.mdp.trdatatech.com/api/v1/symbols/subscribe?symbols=.AAPL,.V
+​	https://devapi.mdp.trdatatech.com/api/v1/symbols/subscribe?symbols=.AAPL,.V
 
-​	https://api.mdp.trdatatech.com/api/v1/symbols/unsubscribe?symbols=.AAPL
+​	https://devapi.mdp.trdatatech.com/api/v1/symbols/unsubscribe?symbols=.AAPL
 
 #### Params
 
@@ -374,7 +374,7 @@ MDP использует концепцию подписок (Subscribe) и RFQ 
 
 #### Request
 
-​	https://api.mdp.trdatatech.com/api/v1/symbols/list
+​	https://devapi.mdp.trdatatech.com/api/v1/symbols/list
 
 #### Response
 
@@ -393,7 +393,7 @@ MDP использует концепцию подписок (Subscribe) и RFQ 
 
 #### Request
 
-​	https://api.mdp.trdatatech.com/api/v1/symbols/get?symbols=.AAPL
+​	https://devapi.mdp.trdatatech.com/api/v1/symbols/get?symbols=.AAPL
 
 #### Params
 
@@ -432,7 +432,7 @@ MDP использует концепцию подписок (Subscribe) и RFQ 
 
 #### Request
 
-​		https://api.mdp.trdatatech.com/api/v1/symbols/latest
+​		https://devapi.mdp.trdatatech.com/api/v1/symbols/latest
 
 #### Response
 
@@ -471,7 +471,7 @@ MDP использует концепцию подписок (Subscribe) и RFQ 
 
 #### Request
 
-​	https://api.mdp.trdatatech.com/api/v1/symbols/historical?symbols=.AAPL,.FB&count=7
+​	https://devapi.mdp.trdatatech.com/api/v1/symbols/historical?symbols=.AAPL,.FB&count=7
 
 #### Response
 
